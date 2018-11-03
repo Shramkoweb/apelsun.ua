@@ -1,0 +1,33 @@
+.charter-list {
+  font-weight: 400;
+  letter-spacing: 0.65px;
+}
+
+.charter-list__item {
+  position: relative;
+
+  max-width: 135px;
+  margin-right: 40px;
+  padding-top: 30px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: -41px;
+
+    width: 1px;
+    height: 25px;
+
+    background-color: #555555;
+    opacity: 0.2;
+  }
+
+  &:last-child::after {
+    content: none;
+  }
+
+  &--current {
+    color: #a7d2db;
+  }
+}

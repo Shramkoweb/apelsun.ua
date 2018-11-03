@@ -8,5 +8,8 @@
 /* Контейнер */
 @import "blocks/container.scss";
 /* Шапка сайта */
-@import "blocks/page-header.scsss";
-
+@import "blocks/page-header.scss";
+/* Навигация сайта */
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/charter-list.scss";

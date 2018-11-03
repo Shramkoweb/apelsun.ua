@@ -1,0 +1,21 @@
+.site-list {
+  font-weight: 700;
+}
+
+.site-list__item {
+  padding-top: 53px;
+  padding-right: 29px;
+  padding-bottom: 15px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+
+  &--current {
+    color: #a7d2db;
+  }
+
+  &--language {
+    color: #a7d2db;
+  }
+}

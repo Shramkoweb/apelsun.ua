@@ -1,0 +1,16 @@
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 940px;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+
+  list-style: none;
+  font-size: 13px;
+  line-height: 1;
+  color: #929292;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+}
