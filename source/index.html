@@ -10,6 +10,11 @@
     <link rel="preload" href="fonts/pfdindisplaypro-med.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/pfdindisplaypro-bold.woff2" as="font" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style-min.css">
+    <style>
+      html {
+        background: url("img/page.jpg") 50% 0 no-repeat;
+      }
+    </style>
   </head>
   <body class="page">
     <div class="container">
@@ -17,7 +22,7 @@
         <!-- Навигация по странице -->
         <nav class="main-nav">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item">Чартеры</li>
+            <li class="site-list__item site-list__item--current">Чартеры</li>
 
             <li class="site-list__item">Покупка/продажа</li>
 
@@ -30,6 +35,8 @@
             <li class="site-list__item">О компании</li>
 
             <li class="site-list__item">Контакты</li>
+
+            <li class="site-list__item site-list__item--language">EN</li>
           </ul>
 
           <ul class="main-nav__list charter-list">
@@ -41,7 +48,7 @@
 
             <li class="charter-list__item">Медицинские чартеры</li>
 
-            <li class="charter-list__item">Empty Legs</li>
+            <li class="charter-list__item charter-list__item--current">Empty Legs</li>
 
             <li class="charter-list__item">Вертолеты</li>
           </ul>
