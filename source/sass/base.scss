@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "PF DinDisplay Pro", "Arial", sans-serif;
+  color: #555555;
+}
+
+a {
+  color: #555555;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
