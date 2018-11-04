@@ -1,0 +1,169 @@
+.flights {
+  padding-top: 75px;
+  padding-bottom: 125px;
+
+  text-align: center;
+
+  background-image: url("../img/bi-plane.jpg");
+  background-position: top;
+}
+
+.flights__description {
+  position: relative;
+
+  margin: 0;
+  margin-bottom: 52px;
+
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 20.6px;
+  text-indent: 18.9px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: 50%;
+
+    width: 1px;
+    height: 30px;
+
+    background-color: #555555;
+    opacity: 0.7;
+  }
+}
+
+.flights__title {
+  position: relative;
+
+  margin: 0;
+  padding-bottom: 100px;
+
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 72px;
+  text-transform: uppercase;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 81px;
+    left: 50%;
+
+    width: 0;
+    height: 0;
+
+    border-top: 15px solid #a7d2db;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    transform: translateX(-50%);
+  }
+}
+
+.flights__table {
+  margin-top: 48px;
+  margin-bottom: 103px;
+  margin-left: 45px;
+
+  border-collapse: collapse;
+}
+
+.flights__thead {
+  font-size: 21px;
+  line-height: 48px;
+  text-transform: uppercase;
+
+  & th {
+    width: 300px;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+
+    text-align: left;
+
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+
+    &:first-child {
+      width: 317px;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.flights__row {
+  & td {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+
+    text-align: left;
+
+    border-right: 1px solid #d7d7d7;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  & a {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+
+    &:hover {
+      color: #a7d2db;
+      text-decoration: underline;
+    }
+  }
+
+  &:last-child {
+    & td {
+      padding-bottom: 25px;
+    }
+  }
+}
+
+.flights__order {
+  text-transform: uppercase;
+}
+
+.flights__link {
+  position: relative;
+
+  display: block;
+  max-width: 181px;
+  margin: 0 auto;
+  padding: 10px 40px;
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 33px;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+
+  background-color: #c4e5ec;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 2px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #555555;
+    transform: translateY(-50%);
+  }
+}
