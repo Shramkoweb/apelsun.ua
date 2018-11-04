@@ -1,19 +1,25 @@
-//Открытие модального окна.
+const modal = document.querySelector(".modal");
+const overlay = document.querySelector(".modal__fade");
+const data = document.querySelector(".modal__text");
 
-var link = document.querySelectorAll(".js-modal");
-
-if (link.length > 0) {
-  var modal = document.querySelector(".modal");
-  var overlay = document.querySelector(".modal__fade");
-
-  for (var i = 0; i < link.length; i++) {
-    link[i].addEventListener("click", function () {
-      event.preventDefault();
-      modal.classList.add("modal--opened");
-    })
-  };
+const addListener = (elem) => {
+  elem.addEventListener('click', (e) => {
+    e.preventDefault();
+    const linkId = e.target.id;
+    const dataId = `#data_${linkId}`;
+    const result = document.querySelector(dataId);
+    modal.classList.add("modal--opened");
+    data.textContent = result.textContent
+  });
 
   overlay.addEventListener("click", function () {
     modal.classList.remove("modal--opened");
   })
-};
+}
+
+const links = [...document.querySelectorAll('.link')];
+
+links.forEach(link => addListener(link));
+
+
+
