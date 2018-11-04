@@ -8,6 +8,7 @@ if (link.length > 0) {
 
   for (var i = 0; i < link.length; i++) {
     link[i].addEventListener("click", function () {
+      event.preventDefault();
       modal.classList.add("modal--opened");
     })
   };
