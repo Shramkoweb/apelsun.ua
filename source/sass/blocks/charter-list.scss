@@ -26,8 +26,8 @@
   &:last-child::after {
     content: none;
   }
+}
 
-  &--current {
-    color: #a7d2db;
-  }
+.charter-list__link--current {
+  color: #a7d2db;
 }

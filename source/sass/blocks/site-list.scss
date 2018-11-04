@@ -10,12 +10,8 @@
   &:last-child {
     padding-right: 0;
   }
+}
 
-  &--current {
-    color: #a7d2db;
-  }
-
-  &--language {
-    color: #a7d2db;
-  }
+.site-list__link--current {
+  color: #a7d2db;
 }
