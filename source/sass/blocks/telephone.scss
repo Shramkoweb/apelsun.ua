@@ -1,0 +1,39 @@
+.telephone {
+  padding-left: 55px;
+  margin-bottom: 40px;
+}
+
+.telephone__title {
+  position: relative;
+
+  margin: 0;
+  padding-left: 30px;
+
+  font-weight: 100;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+
+    width: 16px;
+    height: 28px;
+
+    background-image: url("../img/telephone-icon.png");
+  }
+}
+
+.telephone__link {
+  color: #7e7e7e;
+
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.7px;
+}

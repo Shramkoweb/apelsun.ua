@@ -1,0 +1,36 @@
+.address {
+  padding-left: 35px;
+}
+
+.address__title {
+  position: relative;
+
+  margin: 0;
+  margin-bottom: 10px;
+  padding-left: 30px;
+
+  font-weight: 100;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+
+    width: 21px;
+    height: 29px;
+
+    background-image: url("../img/adress-icon.png");
+  }
+}
+
+.address__text {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #7e7e7e;
+}

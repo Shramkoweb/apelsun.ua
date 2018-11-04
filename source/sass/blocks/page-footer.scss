@@ -1,0 +1,35 @@
+.page-footer {
+  padding-top: 70px;
+
+  color: #464646;
+
+  background-color: #1c1c1c;
+}
+
+.page-footer__title {
+  margin: 0;
+  margin-bottom: 100px;
+
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #464646;
+  text-transform: uppercase;
+  letter-spacing: 20.6px;
+  text-indent: 18.9px;
+}
+
+.page-footer__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.page-footer__address,
+.page-footer__inner,
+.page-footer__mail {
+  width: 380px;
+}
+

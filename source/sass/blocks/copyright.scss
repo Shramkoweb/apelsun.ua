@@ -1,0 +1,22 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright__date {
+  margin: 0;
+  padding-left: 30px;
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #464646;
+  letter-spacing: 0.8px;
+}
+
+.copyright__link {
+  display: inherit;
+}
+
+.copyright__image {
+  margin-left: 20px;
+}
